@@ -1,0 +1,21 @@
+<div class="s130">
+    <form #url="ngForm" (ngSubmit)="generateShortURL(url.value)">
+        <div class="inner-form">
+            <div class="input-field first-wrap">
+                <div class="svg-wrapper">
+                    <img src="https://img.icons8.com/metro/26/000000/link.png" width="22" height="22"
+                        viewBox="0 0 24 24" />
+                </div>
+                <input id="search" type="text" placeholder="ENTER A URL HERE !" ngModel name="url" />
+            </div>
+            <div class="input-field second-wrap">
+                <button class="btn-search" type="submit">GENERATE</button>
+            </div>
+        </div>
+        <h4 class="margin-top">
+            <b> SHORT URL : </b>
+            <br>
+            <input id="short-url" type="text" [value]="shortUrl"/>
+        </h4>
+    </form>
+</div>

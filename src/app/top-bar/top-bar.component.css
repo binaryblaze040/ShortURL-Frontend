@@ -1,0 +1,34 @@
+.name{
+    font-size: xx-large;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: green;
+}
+
+.wrapper{
+  display: flex;
+  justify-content: space-between
+}
+
+.login-img {
+  height: 25px;
+}
+
+.register-img {
+  height : 30px
+}
+
+.toolbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 65px;
+  width : 100%;
+  display: flex;
+  align-items: center;
+  background-color: black;
+  opacity: 0.8;
+  color: white;
+  font-weight: 600;
+  padding-left: 20px;
+}
