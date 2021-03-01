@@ -132,27 +132,3 @@ h4 {
       height: 50px;
     }
   }
-  
-  @media screen and (max-width: 767px) {
-    .s130 form .inner-form .input-field.first-wrap .svg-wrapper {
-      min-width: 40px;
-      display: -ms-flexbox;
-      display: flex;
-      -ms-flex-pack: center;
-          justify-content: center;
-      -ms-flex-align: center;
-          align-items: center;
-      padding: 0 10px;
-    }
-    .s130 form .inner-form .input-field.first-wrap svg {
-      width: 26px;
-      height: 26px;
-      fill: #222;
-    }
-    .s130 form .inner-form .input-field.second-wrap {
-      min-width: 100px;
-    }
-    .s130 form .inner-form .input-field.second-wrap .btn-search {
-      font-size: 13px;
-    }
-  }
